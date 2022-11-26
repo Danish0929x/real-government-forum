@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+body {
+  background: rgb(179, 176, 248);
+  background: linear-gradient(
+    90deg,
+    rgba(179, 176, 248, 1) 0%,
+    rgba(233, 196, 242, 1) 35%,
+    rgba(234, 234, 245, 1) 100%
+  );
+  font-size: 33px;
+  text-align: center;
+  margin: 0px 0px 50px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  background-color: aquamarine;
+  font-size: 33px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.btn:hover {
+  background-color: yellow;
+}
+
+#navbar {
+  height: 80px;
+  background-color: #1c2e44;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+#navbar button {
+  padding: 5px 8px;
+  background-color: #eaeaf5;
+  border-radius: 10px;
+  color: #1c2e44;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+#navbar .connection{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar p {
+  font-size: 1rem;
+  color: #eaeaf5;
+  font-family: sans-serif;
+}
+
+#navbar .adm-btn{
+    padding: 5px 8px;
+  background-color: #eaeaf5;
+  border-radius: 10px;
+  color: #1c2e44;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.main {
+  padding: 50px;
+  font-family: "Roboto", sans-serif;
+  color: #1c2e44;
+}
+
+.main h2 {
+  font-size: 3rem;
+}
+
+.main .input-thing {
+  height: 50px;
+}
+
+.main input {
+  margin-top: 40px;
+  height: 100%;
+  padding: 5px 15px;
+  width: 500px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f5f592;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
+  font-weight: 600;
+  outline: none;
+}
+
+.addDataThing{
+    display: none;
+    margin: 50px 20px;
+
+}
+.addInput{
+    height: 50px;
+}
+
+.addInput input {
+    margin-top: 40px;
+    height: 100%;
+    padding: 5px 15px;
+    width: 500px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    background-color: #f5f5f592;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+    font-weight: 600;
+    outline: none;
+  }
+
+.addInput button {
+  font-size: 1rem;
+  border-radius: 10px;
+  height: 100%;
+  padding: 0px 20px;
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f5f592;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
+  font-weight: 600;
+}
+.addDataThing h2{
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    color: #1c2e44;
+    margin-top: 50px;
+
+}
+.main button {
+  font-size: 1rem;
+  border-radius: 10px;
+  height: 100%;
+  padding: 0px 20px;
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f5f592;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
+  font-weight: 600;
+}
+
+.data {
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+.table-thing {
+  margin: auto;
+  width: 100%;
+}
+
+.table-thing table {
+  width: 800px;
+  font-family: "Roboto", sans-serif;
+  margin: auto;
+}
+.table-thing table tr {
+  border-radius: 15px;
+}
+.table-thing table tr:nth-child(even) {
+  background-color: #eaeaf5;
+}
+.table-thing table tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+.table-thing table tr:nth-child(1) {
+  background-color: #1c2e44;
+  color: #eaeaf5;
+}
+.table-thing table th,
+td {
+  padding: 10px 20px;
+  font-size: 0.5em;
+}
+.table-thing table td {
+  font-size: 0.5em;
+  padding: 10px 20px;
+}
