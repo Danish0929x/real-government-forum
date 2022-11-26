@@ -13,6 +13,11 @@ npx kill-port 3080
 node server.js
 ```
 
+## Requirement
+
+A metamask extention installed in your browser
+node js installed in your browser
+
 
 ## Contributing
 
