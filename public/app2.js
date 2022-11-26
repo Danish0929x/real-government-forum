@@ -171,7 +171,7 @@ const fetchTable = async () => {
             <th>Description</th>
         </tr>`;
     var tableThing = document.querySelector(".table-thing");
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < 40; i++) {
       const data2 = await window.contract.methods
         .readProperty(userNamValue, i)
         .call();
