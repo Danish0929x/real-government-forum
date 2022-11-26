@@ -133,6 +133,4 @@ const connectContract = async () => {
     console.log("Connected to contract");
   };
   
-
-
-co
+ 
